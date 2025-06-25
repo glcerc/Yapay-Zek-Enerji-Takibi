@@ -1,0 +1,1 @@
+# Yapay-Zek-Enerji-Takibi
