@@ -1,4 +1,4 @@
-# 🌿 Yapay Zekâ Enerji Takibi - Chrome Uzantısı
+# 🌿 Yapay Zeka Etki Takibi - Chrome Uzantısı
 
 <h3 align="center"></h3>
 <p align="center">
