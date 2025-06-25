@@ -1,11 +1,11 @@
 # 🌿 Yapay Zekâ Enerji Takibi - Chrome Uzantısı
 
-<h3 align="center">Ekran Görüntüsü 2</h3>
+<h3 align="center"></h3>
 <p align="center">
   <img src="images/screenshot2.png" width="600"/>
 </p>
 
-<h3 align="center">Ekran Görüntüsü 1</h3>
+<h3 align="center"></h3>
 <p align="center">
   <img src="images/screenshot1.png" width="600"/>
 </p>
