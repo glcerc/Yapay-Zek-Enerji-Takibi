@@ -2,12 +2,12 @@
 
 <h3 align="center"></h3>
 <p align="center">
-  <img src="images/screenshot2.png" width="600"/>
+  <img src="images/screenshot1.png" width="600"/>
 </p>
 
 <h3 align="center"></h3>
 <p align="center">
-  <img src="images/screenshot1.png" width="600"/>
+  <img src="images/screenshot2.png" width="600"/>
 </p>
 
 
