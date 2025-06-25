@@ -1,7 +1,7 @@
 # 🌿 Yapay Zekâ Enerji Takibi - Chrome Uzantısı
 
-
-
+!(images/screenshot1.png)
+!(images/screenshot2.png)
 
 Bu uzantı, ChatGPT üzerinde yaptığınız sorguların enerji tüketimini, karbon salımını ve çevresel etkilerini tahmin eder. 🌍⚡Amacı, büyük dil modellerinin sürdürülebilirliğine dikkat çekmek ve kullanıcıları bilinçlendirmektir.
 
