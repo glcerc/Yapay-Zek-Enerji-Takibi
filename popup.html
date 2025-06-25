@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yapay Zeka Etki Takibi</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      min-width: 300px;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 10px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+    .section {
+      padding: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .card {
+      background: white;
+      padding: 8px 10px;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+      text-align: center;
+      font-size: 14px;
+    }
+    .highlight {
+      font-weight: bold;
+      font-size: 16px;
+      color: #1b5e20;
+    }
+    .footer {
+      padding: 10px 15px;
+      font-size: 13px;
+      background: #e8f5e9;
+      text-align: center;
+      border-top: 1px solid #c8e6c9;
+    }
+    .dailyTip {
+      margin-top: 8px;
+      color: #33691e;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>🌿 Yapay Zeka Etki Takibi</span>
+    <a href="#" id="resetLink" style="color: white; text-decoration: none;">Sıfırla</a>
+  </header>
+
+  <div class="section">
+    <div class="grid">
+      <div class="card">
+        <div>Mesaj Sayısı</div>
+        <div class="highlight" id="msgCount">0</div>
+      </div>
+      <div class="card">
+        <div>Enerji Tüketimi</div>
+        <div class="highlight" id="energyUsed">0.00 Wh</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h4 style="margin: 0 0 10px;">Çevresel Eşdeğerler</h4>
+    <div class="grid">
+      <div class="card" id="teaEquivalent">☕ 0 bardak çay</div>
+      <div class="card" id="mealEquivalent">🍲 0 yemek</div>
+      <div class="card" id="coffeeEquivalent">☕ 0 Türk kahvesi</div>
+      <div class="card" id="seriesEquivalent">📺 0 dakika dizi</div>
+      <div class="card" id="elevatorEquivalent">🛗 0 kat asansör</div>
+      <div class="card" id="phoneEquivalent">📱 0 telefon</div>
+    </div>
+  </div>
+
+  <div class="footer" id="popupSuggestions">
+    <span class="dailyTip">Enerji tasarrufu için sohbetlerini kısa ve öz tut!</span>
+    <div style="margin-top: 5px;">Tahmini karbon emisyonu: <span id="carbonEmission">0.000 gCO₂</span></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

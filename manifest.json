@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Yapay Zekâ Enerji Takibi",
+  "description": "ChatGPT kullanırken ne kadar enerji harcadığını, karbon salımını ve çevresel etkilerini gör! 🌿⚡",
+  "version": "1.0",
+  "background": {
+    "service_worker": "resetScheduler.js"
+  },
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Yapay Zeka Etki Takibi"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "https://chat.openai.com/*"
+  ]
+
+  
+}
+
+
+
+
